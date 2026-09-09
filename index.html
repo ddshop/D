@@ -182,7 +182,7 @@
 
     <!-- 密語區 -->
     <div id="password-area">
-      <label for="pwd-input">7/18給我18個7</label>
+      <label for="pwd-input">請輸入:油飯DD最U惠</label>
       <input id="pwd-input" type="text" placeholder="請輸入通關密語" />
       <button class="submit-btn" onclick="checkPassword()">送出</button>
       <p id="error-msg" class="error-msg" style="display:none;">密碼錯誤，請重新輸入</p>
@@ -210,7 +210,7 @@
       const input = document.getElementById('pwd-input').value.trim();
       const errorMsg = document.getElementById('error-msg');
 
-      if (input === '777777777777777777') {
+      if (input === '油飯DD最U惠') {
         document.getElementById('password-area').style.display = 'none';
         document.getElementById('discount-area').style.display = 'block';
         errorMsg.style.display = 'none';
